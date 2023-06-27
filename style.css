@@ -12,14 +12,14 @@ body {
 
 hr {
   width: 70px;
-  border-color: #ff6a00;
+  border-color: #FFCC99;
   border-width: 2px;
   height: 2px;
 }
 
 .bannerBtn {
   border: none;
-  background: #ff6a00;
+  background: #FFCC99;
   color: white;
   padding: 10px 20px;
 }
@@ -39,27 +39,27 @@ hr {
   font-size: 18px;
 }
 .navbar-btn:hover {
-  color: #ff6a00;
+  color: #FFCC99;
 }
 
 .navbar {
-  background: #131413;
+  background: #ffffff;
 }
 .navbar .navbar-toggle {
-  border-color: #ff6a00;
+  border-color: #FFCC99;
 }
 .navbar .navbar-toggle .icon-bar {
-  background-color: #ff6a00;
+  background-color: #FFCC99;
 }
 .navbar .navbar-brand {
-  color: #ffffff;
+  color: #d2b48c;
   font-weight: 900;
 }
 .navbar .navbar-brand:hover {
-  color: #ff6a00;
+  color: #FFCC99;
 }
 .navbar .navActive {
-  color: #ff6a00;
+  color: #FFCC99;
 }
 
 .parallax, .parallaxSection, .parallaxTop {
@@ -80,7 +80,7 @@ hr {
 }
 
 .shadow, .shadowSection {
-  background: rgba(0, 0, 0, 0.8);
+  background: #fdf5e6;
   min-height: 100vh;
   width: 100%;
 }
@@ -97,15 +97,16 @@ hr {
   padding-top: 30vh;
   text-align: center;
   font-family: sans-serif;
-  font-size: 112px;
+  font-size: 80px;
   margin-top: 0;
 }
 .jumboBanner .motto {
-  color: white;
+  color: #d2b48c;
   margin: 50px auto;
 }
 
 #aboutBlock {
+  color: #000000;
   width: 94%;
 }
 
@@ -126,7 +127,7 @@ hr {
 #servicesRow {
   background-image: url("https://images.pexels.com/photos/247932/pexels-photo-247932.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
   text-align: center;
-  color: white;
+  color: #d2b48c;
 }
 #servicesRow h2 {
   padding-top: 100px;
@@ -151,7 +152,7 @@ hr {
 }
 
 .phoneContact {
-  background: #ff6a00;
+  background: #FFCC99;
   text-align: center;
   color: white;
   min-height: 200px;
@@ -185,7 +186,7 @@ hr {
 }
 
 #contactInfo {
-  background: #131413;
+  background: #99CCCC;
   min-height: 200px;
 }
 #contactInfo .contactStack {
@@ -194,14 +195,14 @@ hr {
   font-size: 16px;
 }
 #contactInfo h4 {
-  color: #ff6a00;
+  color: #FFCC99;
 }
 #contactInfo p {
   color: #9d9d9d;
 }
 
 #copyright {
-  background: #ff6a00;
+  background: #FFCC99;
   min-height: 125px;
   text-align: center;
   color: white;
