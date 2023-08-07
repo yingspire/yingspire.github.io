@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <title>Hola</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
-
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<html>
   <head>
     
     <title>yingspire - Website</title>
@@ -32,6 +31,7 @@
             <li id="navAbout" class="btn navbar-btn navActive">About</li>
             <li id="navServices" class="btn navbar-btn">Services</li>
             <li id="navContact" class="btn navbar-btn">Contact</li>
+            <a id="navContactForm" class="btn navbar-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfoaK6lJWbpZHBFLXE3ihL04tU92sxk1Ix3Y8HCPPHn9R6I3w/viewform">Contact Form</a>
           </ul>
         </div>
       </div>
@@ -59,7 +59,7 @@
             <div class="col-md-9">            
               <h2>About</h2>
               <hr />
-              <p>嗨！我是一位擁有CPA執照和基礎coding能力的網站作者。我熱愛探索不同領域的知識和技能，並將它們結合在一起，打造出靈活實用的Google Sheet設計和自動化功能。 在從事過審計員、簿記、財務分析、預算編列等工作之後，我發現自己對設計Google Sheet和開發各種自動化功能的興趣日益增長。憑藉Python、Google Apps Script等編程能力，我能夠創建出高效且具有彈性的Google Sheet應用程式，將工作流程優化。謝謝您來訪我的網站，與我一起探索直觀、易用且功能豐富的Google Sheet解決方案，讓這個世界更加輕鬆和高效！</p>
+              <p id="aboutText">Loading...</p>
             </div>
           </div>
           <div class="col-md-3"></div>          
@@ -91,6 +91,10 @@
           <p>串聯Google Form、Google Doc及Google Calendar進階應用</p>
         </div>
       </div>
+      <div class="container">
+        <iframe class="centered-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSjeBnvds68Yn5OiE1AZuojH3mS-TcDpA8fT55T0nVXG9GrUUcJUzkGaQF2cJbOs6wP5jakNEhYqF32/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>      
+      <div class="spacer"></div> 
     </div>
 <!--  Contact form      -->
       <div id="phoneContact" class="phoneContact row">
@@ -145,7 +149,9 @@
 </html>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script  src="./script.js"></script>
+
 
 </body>
 </html>
